@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#light .App {
+  background-color: #e5e7eb
+}
+#dark .App {
+  background-color: #27272a
+}
+
+#light .navbarContainer {
+  background-color: #1e293b;
+  position:fixed;
+  right:0px;
+  left:0px
+}
+
+#dark .navbarContainer {
+  background-color: #121212;
+  position:fixed;
+  right:0px;
+  left:0px
+}
+
+.orderedList {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px 140px 20px 140px;
+  color: white;
+  display: flex;
+  justify-content: space-between
+}
+.navlinks {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.react-icon {
+  font-size: 23px;
+  cursor: pointer
+}
+.bodySection {
+  padding-top: 80px;
+}
+#light .bodySection {
+  color: black
+}
+#dark .bodySection {
+  color: #f4f4f5
+}
+.title {
+  margin: 20px 0px;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.blogContent {
+  font-family: 'Kanit', sans-serif;
+  font-size:20px;
+  letter-spacing: 2px;
+  line-height:30px;
+  width: 800px;
+  margin: 0px auto
+}
+.image {
+  padding-top: 20px;
+  width: 800px;
+  margin: 0px auto;
+}
+.image img {
+  width: 100%;
+  height: 350px;
+  border-radius: 30px
+}
+.line {
+  background-color: gray;
+  width: 100px;
+  height: 3px;
+  border-radius: 50%;
+  margin: 0px auto 20px auto;
+  
 }
