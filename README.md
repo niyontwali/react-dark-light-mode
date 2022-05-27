@@ -2,6 +2,11 @@
 
 This is a react app that has a main purpose of teaching anyone interested in having a light and dark mode in their react app. This project uses localStorage to store the state i.e. your theme is save until you change it or delete the localstorage. 
 
+![lightmode](https://user-images.githubusercontent.com/16195731/170721362-9337bc31-e85e-468b-b26f-ca22033adc1e.jpg)
+![darkmode](https://user-images.githubusercontent.com/16195731/170721412-19821f6a-241d-4ce3-9376-b65854dabf94.jpg)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
